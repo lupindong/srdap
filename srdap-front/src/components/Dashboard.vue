@@ -1,12 +1,12 @@
 <template>
     <section id="dashboard">
-        <section class="mt-lg-2">
-            <mdb-card class="card-image"
-                      style="background-image: url(http://s.aigei.com/src/img/png/90/90804148243745c29bc67a52999674ca.png?imageView2/2/w/71&e=1595847600&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:_zdfD7T0ECXkdBGTHoaBp5sQH9U=); background-size: 100%">
+        <section class="mt-lg-1">
+            <mdb-card class="card-image" style="background-color: #000529">
                 <div class="text-white text-center py-3 px-3 my-3">
                     <div>
-                        <h1 class="card-title h1-responsive pt-3 mb-3">今日销售总额：<strong
-                                style="font-size: 72px">1234567.89</strong>元</h1>
+                        <h1 class="card-title h1-responsive pt-3 mb-3">
+                            今日销售总额：<strong style="font-size: 72px">1234567.89</strong>元
+                        </h1>
                         <span class="mx-3 mb-3">截止北京时间：{{ new Date().toLocaleString() }}</span>
                         <span class="mx-3 mb-3">移动端成交占比：88.88%</span>
                     </div>
@@ -108,24 +108,24 @@
                         <mdb-card-header class="text-center">门店影票销售额排行</mdb-card-header>
                         <mdb-card-body>
                             <mdb-list-group class="list-group-flush">
-                                <mdb-list-group-item action waves>1. Sales
+                                <mdb-list-group-item action waves>1. 广州店
                                     <mdb-badge color="success-color" pill class="pull-right">789
                                         <mdb-icon icon="arrow-up" class="ml-2"/>
                                     </mdb-badge>
                                 </mdb-list-group-item>
-                                <mdb-list-group-item action waves>2. Traffic
+                                <mdb-list-group-item action waves>2. 北京店
                                     <mdb-badge color="primary-color" pill class="pull-right">456
                                     </mdb-badge>
                                 </mdb-list-group-item>
-                                <mdb-list-group-item action waves>3. Orders
+                                <mdb-list-group-item action waves>3. 上海店
                                     <mdb-badge color="danger-color" pill class="pull-right">123
                                         <mdb-icon icon="arrow-down" class="ml-2"/>
                                     </mdb-badge>
                                 </mdb-list-group-item>
-                                <mdb-list-group-item action waves>4. Issues
+                                <mdb-list-group-item action waves>4. 深圳店
                                     <mdb-badge color="primary-color" pill class="pull-right">74</mdb-badge>
                                 </mdb-list-group-item>
-                                <mdb-list-group-item action waves>5. Messages
+                                <mdb-list-group-item action waves>5. 重庆店
                                     <mdb-badge color="primary-color" pill class="pull-right">8</mdb-badge>
                                 </mdb-list-group-item>
                             </mdb-list-group>
@@ -177,7 +177,7 @@
             <mdb-row>
                 <mdb-col lg="6" class="mb-4">
                     <mdb-card>
-                        <mdb-card-header class="text-center">热门影片Top10</mdb-card-header>
+                        <mdb-card-header class="text-center">热门影片TOP10</mdb-card-header>
                         <mdb-card-body>
                             <section>
                                 <mdb-row>
@@ -193,8 +193,8 @@
                                             <tbody>
                                             <tr>
                                                 <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
+                                                <td>多力特的奇幻冒险</td>
+                                                <td>1458.37万元</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
@@ -264,7 +264,7 @@
                 </mdb-col>
                 <mdb-col lg="6" class="mb-4">
                     <mdb-card>
-                        <mdb-card-header class="text-center">热门卖品Top10</mdb-card-header>
+                        <mdb-card-header class="text-center">热门卖品TOP10</mdb-card-header>
                         <mdb-card-body>
                             <section>
                                 <mdb-row>

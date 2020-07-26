@@ -121,7 +121,7 @@
 
 <style scoped>
     main {
-        background-color: #343a40;
+        background-color: #000529;
     }
 
     .flexible-content {
