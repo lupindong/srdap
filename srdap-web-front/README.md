@@ -1,6 +1,6 @@
 # srdap-front
 
-> simple-realtime-data-analysis-platform-front
+> srdap-web-front
 
 ## Build Setup
 
